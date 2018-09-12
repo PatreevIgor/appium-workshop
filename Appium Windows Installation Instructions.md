@@ -172,13 +172,13 @@
 * Click [here](http://wiki.qatools.ru/display/AL/Allure+Commandline) for more install information.
 
 ### Additional Information:
-* Show emulator list: emulator -list-avds
-* Location of emulator files: C:\Users\Acer\.android\avd
+Show emulator list: emulator -list-avds
+Location of emulator files: C:\Users\Acer\.android\avd
 
-* Example config files (for autotest file):
-* opts = {
-  * sauce_username: nil,
-  * server_url: 'http://localhost:4723/wd/hub',
-  * caps: { app: '/appium-workshop/playground/app-debug.apk',
- 	       * platformName: 'android',
- 	       * deviceName:   'android' } }
+Example config files (for autotest file):
+opts = {
+  sauce_username: nil,
+  server_url: 'http://localhost:4723/wd/hub',
+  caps: { app: '/appium-workshop/playground/app-debug.apk',
+ 	       platformName: 'android',
+ 	       deviceName:   'android' } }
